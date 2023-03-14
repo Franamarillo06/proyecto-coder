@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.859),
+    rgba(0, 0, 0, 0.882))
+    , url(../images/fondopag2.jpg);
+}
+
+.bg-body-tertiary {
+    background-image: url(../images/header.jpg);
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    color: azure;
+    font-weight: bold;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+h1{
+    font-size: 100px;
+}
+
+h3{
+    font-size: 32px;
+}
+
+button{
+    font-size: 11px;
+    font-weight: bold;
+    padding: 2px 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 10px black;
+}
+
+button:hover{
+    background-color: rgb(205, 205, 205);
+}
+
+
+
+#hero{
+    color: white;
+    height: 90vh;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.846),rgba(0, 0, 0, 0.853)),url("../images/principal.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    margin-top: -80px;
+}
+
+#hero h2{
+    font-size: 16px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.cartas{
+    padding: 20px;
+}
+
+
+.masinfo{
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    background-color: rgb(215, 215, 215);
+    padding-top: 50px;
+
+}
+
+footer .footerColumns {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-bottom: 50px;
+}
+
+footer .footerColumns .infoContacto p{
+    font-size: 15px;
+}
+
+h6{
+    font-size: 1.1rem;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 2px solid rgb(0, 170, 255);
+    display: inline-block;
+    margin-left: 5px;
+}
+
+
+
+/* ECTOMORFO */
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    padding-top: 100px;
+    margin-top: 80px;
+}
+
+#subtitulohome h2{
+    font-size: 15px;
+    text-align: center;
+    max-width: 70%;
+}
+
+#titulo-principal{
+    display: inline-block;
+
+    text-align: center;
+    color: white;
+    height: 90vh;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.846),
+                                            rgba(0, 0, 0, 0.853))
+    ,url("../images/de-flaco-a-musculoso-4-1024x538.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+}
+
+.claves{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+
+}
+
+.claves h3{
+    font-size: 20px;
+}
+
+.importancia{
+    text-align: left;
+    padding: 10px;
+    background-color: rgba(186, 188, 197, 0.767);
+}
+
+.col p{
+    color: white;
+    grid-area: parrafo;
+}
+
+.col ul li{
+    color: white;
+    grid-area: lista;
+}
+
+.col{
+    padding: 20px;
+}
+
+.listas{
+    display: grid;
+    grid-template-areas: 
+    "lista lista parrafo";
+}
+
+.nivel-entrenamiento{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+
+
+#nutricion h4{
+    font-size: 24px;
+    text-align: center;
+    padding: 8px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+#nutricion p{
+    padding: 5px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 16px;
+
+}
+
+
+.lista1 ul{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.859),
+    rgba(0, 0, 0, 0.882))
+    , url(../images/dieta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 5px 8px 12px black;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 3%;
+    display: block;
+}
+
+.lista2 ul{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.859),
+    rgba(0, 0, 0, 0.882))
+    , url(../images/pesas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 5px 8px 12px black;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 3%;
+    display: block;
+}
+
+/*MESOMORFO*/
+
+.hero-mesomorfo{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.859),rgba(0, 0, 0, 0.882)),url(../images/principal-mesomorfo.jpg);
+    display: inline-block;
+    text-align: center;
+    color: white;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+}
+
+.hero-mesomorfo h1{
+    margin-top: 80px
+}
+
+#combinacion{
+    text-align: left;
+    padding: 10px;
+    background-color: rgba(186, 188, 197, 0.767);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#combinacion p{
+    font-size: 16px;
+}
+
+/*/ ENDOMORFO */
+
+.hero-endomorfo{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.859),rgba(0, 0, 0, 0.882)),url(../images/principal-endomorfo.jpg);
+    display: inline-block;
+    text-align: center;
+    color: white;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+}
+
+.hero-endomorfo h1{
+    margin-top: 80px;
+}
+
+
+
+/* CONTACTO */
+
+#contactame{
+    color: white;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: rgb(192, 192, 192);
+    border-image: initial;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 100px;
+}
+
+#titulo-contacto{
+    color: white;
+}
+
+input{
+    border-radius: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#contactame label{
+    margin-left: 30px;
+}
+
+legend{
+    margin-left: 45px;
+}
+
+@media only screen and (max-width: 1028px){
+    
+    h1{
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 946px){
+    
+    h1{
+        font-size: 4rem;
+    }
+    #hero{
+        margin-top: -5rem;
+    }
+}
+
+@media only screen and (max-width: 766px){
+    .listas{
+        grid-template-areas: 
+        "lista lista"
+        "parrafo parrafo parrafo";
+    }
+}
+
+
+@media only screen and (max-width: 507px){
+    
+    h1{
+        font-size: 3rem;
+    }
+
+}
+
+@media only screen and (max-width: 350px){
+    
+    footer .footerColumns .copyright p{
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 344px){
+    
+    h1{
+        font-size: 2.7rem;
+    }
+
+}
+
+
