@@ -1,0 +1,44 @@
+.contenedor-comida h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+
+
+.contenedor-comida{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    background: linear-gradient(90deg, hsla(205, 46%, 10%, 1) 0%, hsla(191, 28%, 23%, 1) 50%, hsla(207, 41%, 27%, 1) 100%);
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    padding-bottom: 2%;
+    margin-bottom: 200px;
+    margin-top: 50px;
+}
+
+.contenedor-comida img{
+    padding: 20px;
+    width: 30%;
+    margin-top: 20px;
+    float: right;
+    border-radius: 60px;
+
+}
+
+.contenedor-comida .carne{
+    height: 220px;
+}
+
+.contenedor-comida .avena{
+    height: 220px;
+}
+
+
+
+.contenedor-comida p{
+    color: white;
+    padding: 20px;
+}
