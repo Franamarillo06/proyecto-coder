@@ -4,3 +4,22 @@
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+h3{
+    font-size: 32px;
+}
+
+h6{
+    font-size: 1.1rem;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 2px solid rgb(0, 170, 255);
+    display: inline-block;
+    margin-left: 5px;
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    padding-top: 100px;
+    margin-top: 80px;
+}

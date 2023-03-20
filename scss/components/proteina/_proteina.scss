@@ -1,0 +1,23 @@
+/* ECTOMORFO */
+.proteina{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    background-color: #3d3d46;
+    opacity: 0.8;
+    background-image: radial-gradient(circle at center center, #080919, #3d3d46), repeating-radial-gradient(circle at center center, #080919, #080919, 10px, transparent 20px, transparent 10px);
+    background-blend-mode: multiply;
+    margin-bottom: 200px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.title-accent h3{
+    margin-top: 40px;
+    font-weight: bold;
+}
