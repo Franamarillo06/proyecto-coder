@@ -1,12 +1,3 @@
-.contenedor-comida h2{
-    display: flex;
-    justify-content: center;
-    color: white;
-    padding-top: 20px;
-    text-decoration: underline;
-}
-
-
 .contenedor-comida{
     width: 100%;
     max-width: 1200px;
@@ -17,28 +8,34 @@
     padding-bottom: 2%;
     margin-bottom: 200px;
     margin-top: 50px;
-}
 
-.contenedor-comida img{
-    padding: 20px;
-    width: 30%;
-    margin-top: 20px;
-    float: right;
-    border-radius: 60px;
+    h2{
+        display: flex;
+        justify-content: center;
+        color: white;
+        padding-top: 20px;
+        text-decoration: underline;
+    }
 
-}
+    img{
+        padding: 20px;
+        width: 30%;
+        margin-top: 20px;
+        float: right;
+        border-radius: 60px;
+    
+    }
 
-.contenedor-comida .carne{
-    height: 220px;
-}
+    .carne{
+        height: 220px;
+    }
 
-.contenedor-comida .avena{
-    height: 220px;
-}
+    .avena{
+        height: 220px;
+    }
 
-
-
-.contenedor-comida p{
-    color: white;
-    padding: 20px;
+    p{
+        color: white;
+        padding: 20px;
+    }
 }
