@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  max-width: 1440px;
   box-sizing: border-box;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -48,6 +49,8 @@ button:hover {
 
 .cartas {
   padding: 20px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 /* INICIO */
@@ -102,6 +105,21 @@ button:hover {
   color: rgb(238, 238, 238);
 }
 
+.card-img-top {
+  height: 240px;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  display: block;
+  margin-top: auto;
+}
+
 .claves {
   text-align: center;
   background: linear-gradient(90deg, rgba(4, 3, 37, 0.822) 0%, rgba(10, 17, 39, 0.76) 100%);
@@ -130,6 +148,10 @@ footer .footerColumns {
 }
 footer .footerColumns .infoContacto p {
   font-size: 15px;
+}
+
+.enlaces ul li a {
+  color: white;
 }
 
 .importancia {
@@ -221,7 +243,7 @@ legend {
 /* principal */
 #hero {
   color: white;
-  height: 90vh;
+  margin-bottom: 5rem;
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.846), rgba(0, 0, 0, 0.853)), url("../images/principal.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -307,6 +329,7 @@ legend {
 * {
   margin: 0;
   padding: 0;
+  max-width: 1440px;
   box-sizing: border-box;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -357,9 +380,11 @@ h1 {
 }
 .contenedor-comida .carne {
   height: 220px;
+  object-fit: cover;
 }
 .contenedor-comida .avena {
   height: 220px;
+  object-fit: cover;
 }
 .contenedor-comida p {
   color: white;
@@ -404,6 +429,10 @@ h1 {
   margin-top: 50px;
 }
 
+.textobody {
+  color: white;
+}
+
 .tips_img {
   padding-right: 30px;
 }
@@ -441,8 +470,8 @@ h1 {
   color: #f34949;
 }
 
-.dishes-text {
-  padding-left: 90px;
+.row {
+  justify-content: center;
 }
 
 .section-content {
@@ -455,6 +484,12 @@ h1 {
 
 .contenedor-nutri {
   color: white;
+}
+.contenedor-nutri h1 {
+  margin-top: -80px;
+}
+.contenedor-nutri .w-50 {
+  width: 100% !important;
 }
 
 /* combinacion mesomorfoID */

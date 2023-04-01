@@ -1,9 +1,10 @@
+$color1: white;
 footer {
     display: flex;
     align-items: center;
     background: linear-gradient(90deg, hsla(198, 65%, 18%, 1) 0%, hsla(178, 44%, 14%, 1) 100%);
     padding-top: 50px;
-    color: white;
+    color: $color1;
     .footerColumns {
         display: flex;
         width: 100%;
@@ -16,4 +17,8 @@ footer {
         font-size: 15px;
     }
 
+}
+
+.enlaces ul li a{
+    color: white;
 }

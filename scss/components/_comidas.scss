@@ -9,10 +9,11 @@
     margin-bottom: 200px;
     margin-top: 50px;
 
+
     h2{
         display: flex;
         justify-content: center;
-        color: white;
+        color: $color1;
         padding-top: 20px;
         text-decoration: underline;
     }
@@ -28,10 +29,12 @@
 
     .carne{
         height: 220px;
+        object-fit: cover;
     }
 
     .avena{
         height: 220px;
+        object-fit: cover;
     }
 
     p{

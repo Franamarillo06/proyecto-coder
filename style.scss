@@ -1,23 +1,36 @@
 @import "./scss/resets/resets";
 @import "./scss/body/body";
-@import "./scss/components/buttons/buttons";
-@import "./scss/components/cartas/cartas";
-@import "./scss/components/claves/claves";
-@import "./scss/components/footer/footer";
-@import "./scss/components/importancias/importancia";
+@import "./scss/components/buttons";
+@import "./scss/components/cartas";
+@import "./scss/components/claves";
+@import "./scss/components/footer";
+@import "./scss/components/importancia";
 @import "./scss/contacto/contacto";
 @import "./scss/heros/hero";
 @import "./scss/navbar/navbar";
 @import "./scss/resets/resets";
-@import "./scss/components/comidas/comidas";
-@import "./scss/components/proteina/proteina";
-@import "./scss/components/tips-endom/tips";
-@import "./scss/components/tips-meso/tipsmeso";
+@import "./scss/components/comidas";
+@import "./scss/components/proteina";
+@import "./scss/components/tips";
+@import "./scss/components/tipsmeso";
+
+
 
 
 .contenedor-nutri{
     color: white;
+    
+    h1{
+        margin-top: -80px;
+    }
+
+    .w-50{
+        width: 100% !important;
+    }
+
+    
 }
+
 /* combinacion mesomorfoID */
 
 #combinacion{

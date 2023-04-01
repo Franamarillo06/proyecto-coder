@@ -14,11 +14,12 @@
   #gtco-special-dishes h3 span {
     color: #f34949; }
   
-  .dishes-text {
-    padding-left: 90px; }
+    .row {
+      justify-content: center;
+    }
 
 .section-content{
-    color: white;
+    color: $color1;
 }  
 
 .text-center{

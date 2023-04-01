@@ -1,10 +1,14 @@
 .cartas{
     padding: 20px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 
 /* INICIO */
-.contenedorcards{
+
+
+@mixin contenedorcarta{
     color: black;
     background-color: rgb(212, 212, 212);
     padding: 20px;
@@ -12,7 +16,9 @@
     grid-template-areas: 
     "card1 card2 card3";
 }
-
+.contenedorcards{
+    @include contenedorcarta;
+}
 .card1{
     grid-area: card1;
 
@@ -58,4 +64,19 @@
         font-weight: bold;
         color: rgb(238, 238, 238);
     }
+}
+
+.card-img-top{
+    height: 240px;
+    object-fit: cover;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    display: block;
+    margin-top: auto;
 }
