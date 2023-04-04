@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  max-width: 1440px;
   box-sizing: border-box;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -49,7 +48,6 @@ button:hover {
 
 .cartas {
   padding: 20px;
-  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -329,7 +327,6 @@ legend {
 * {
   margin: 0;
   padding: 0;
-  max-width: 1440px;
   box-sizing: border-box;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
